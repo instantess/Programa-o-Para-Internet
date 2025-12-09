@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/controllers/AuthController.php';
+require_once __DIR__ . '/app/controllers/AuthController.php';
 
 if (!isset($_SESSION)) {
     session_start();

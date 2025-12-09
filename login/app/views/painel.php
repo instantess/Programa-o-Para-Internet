@@ -16,6 +16,6 @@ if (!isset($_SESSION['id'])) {
 </head>
 <body>
     <h1>Bem-vindo, <?php echo $_SESSION['nome']; ?></h1>
-
+  <a href= index.php> <button> SAIR </button> </a>
 </body>
 </html>
